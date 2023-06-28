@@ -33,3 +33,8 @@ https://addons.mozilla.org/en-US/firefox/addon/save-all-files/
 https://addons.mozilla.org/en-US/firefox/addon/downthemall/
 https://addons.mozilla.org/en-US/firefox/addon/simple-mass-downloader/
 ```
+
+### Unminified .css
+```
+https://tylerbockler.medium.com/unminify-code-using-chrome-developer-tools-52a52b458545
+```
