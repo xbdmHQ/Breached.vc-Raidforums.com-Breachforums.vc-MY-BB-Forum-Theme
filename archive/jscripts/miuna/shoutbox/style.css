@@ -1,0 +1,82 @@
+.notice {
+	padding-top: 1px;
+	padding-bottom: 6px
+}
+.tShout {
+	margin-bottom: 10px
+}
+.wrapShout {
+	margin: 0 7px;
+	margin-top: 0
+}
+.contentShout a {
+	background-color: transparent;
+	color: var(--theme-tertiary-color)
+}
+.contentShout a:hover {
+	color: var(--theme-link-hover-color)
+}
+.contentShout>.tabShout {
+	padding: 5px 10px;
+	border-bottom-width: 2px;
+	border-radius: 3px;
+	color: #dbdbdb;
+	display: inline-block;
+	cursor: pointer;
+	margin: 0 0 -2px 7px;
+	font-size: 14px;
+	position: relative
+}
+.contentShout>.tabShout.selected {
+	background: 0 0;
+	border-bottom: 2px solid var(--theme-secondary-color) !important;
+	cursor: auto
+}
+.numusr {
+	padding: 10px
+}
+.wrapShout {
+	overflow: auto
+}
+.msgShout {
+  overflow: auto;
+	background: #1b1b1b;
+	color: #efefef;
+	font-size: 13px;
+	font-family: sans-serif, Tahoma, Verdana, Arial;
+	word-break: break-word;
+	padding: 6px 10px
+}
+.msgShout>.time_msgShout {
+	margin-right: 4px
+}
+.msgShout>.pm_inf {
+	color: #3e3e3e
+}
+.msgShout>.content_msgShout {
+	margin-left: 3px
+}
+.msgShout>.edt_class {
+	font-size: smaller
+}
+.msb_tvatar img {
+	border: 1px solid #d5d5d5;
+	max-width: 20px;
+	max-height: 20px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+	vertical-align: middle;
+	padding: 1px;
+	margin-right: 3px
+}
+.msb_tvatar img:hover {
+	border-color: #7d7d7d
+}
+.msgShout:last-of-type {
+  overflow: auto;
+	border-bottom-style: none;
+	margin-bottom: 0!important
+}
+.yuieditor-button div {
+	height: 16px;
+	width: 16px
+}

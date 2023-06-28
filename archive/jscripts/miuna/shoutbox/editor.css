@@ -1,0 +1,232 @@
+textarea.editorShout {
+    font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100% !important;
+	height: 30px;
+}
+.yuieditor-button div {
+    background-image: url("../../../jscripts/sceditor/editor_themes/famfamfam.png");
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+.yuieditor-button-bold div {
+    
+  background-position:  0px -592px;
+    
+}
+.yuieditor-button-font div {
+    
+  background-position:  0px -432px;
+    
+}
+.yuieditor-button-size div {
+    
+  background-position:  0px -160px;
+    
+}
+.yuieditor-button-emoticon div {
+    
+  background-position:  0px -448px;
+    
+}
+.yuieditor-button-color div {
+    
+  background-position:  0px -528px;
+    
+}
+.yuieditor-emoticons img {
+    cursor: pointer;
+	padding: 1px;
+}
+div.yuieditor-dropdown {
+    position: absolute;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #333;
+    z-index: 6;
+    padding: 10px;
+	line-height: 1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+div.yuieditor-dropdown a, div.yuieditor-dropdown a:link {
+    color: #333;
+}
+div.yuieditor-dropdown form {
+    margin: 0;
+}
+div.yuieditor-dropdown label {
+    display: block;
+    font-weight: bold;
+    color: #3c3c3c;
+    padding: 4px 0;
+}
+div.yuieditor-dropdown input, div.yuieditor-dropdown textarea {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    outline: 0;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-top-color: #888;
+    margin: 0 0 .75em;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+div.yuieditor-dropdown textarea {
+    padding: 6px;
+}
+div.yuieditor-dropdown input:focus, div.yuieditor-dropdown textarea:focus {
+    border-color: #aaa;
+    border-top-color: #666;
+    -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+div.yuieditor-dropdown .button {
+    font-weight: bold;
+    color: #444;
+    padding: 6px 12px;
+    background: #ececec;
+    border: solid 1px #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    cursor: pointer;
+    margin: .3em 0 0;
+}
+div.yuieditor-dropdown .button:hover {
+    background: #f3f3f3;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+div.yuieditor-font-picker, div.yuieditor-fontsize-picker {
+    padding: 6px 0;
+}
+.yuieditor-fontsize-option, .yuieditor-font-option {
+    display: block;
+    padding: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #222;
+}
+.yuieditor-fontsize-option:hover, .yuieditor-font-option:hover {
+    background: #eee;
+}
+.yuieditor-insertemoticon, div.yuieditor-color-picker {
+    padding: 0px !important;
+}
+.yuieditor-insertemoticon-popup {
+	max-width: 250px;
+	max-height: 250px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.yuieditor-more {
+    border-top: 1px solid #bbb;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 6px 0;
+}
+.yuieditor-more:hover {
+    background: #eee;
+}
+.yuieditor-emoticons-ul > li {
+	display: inline-block;
+}
+div.yuieditor-toolbar {
+    overflow: hidden;
+    padding: 2px 2px 1px;
+    background: #2b2b2b;
+    line-height: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+div.yuieditor-group {
+    display: inline-block;
+    background: #eee;
+    margin: 1px 5px 1px 0;
+    padding: 1px;
+    border-bottom: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.yuieditor-button {
+    float: left;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+     border:  1px solid #eee;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.yuieditor-button:hover, .yuieditor-button:active, .yuieditor-button.active {
+    background: #fff;
+	border: 1px solid #ddd;
+}
+.yuieditor-button div {
+    display: block;
+    margin: 2px 0;
+    padding: 0;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;	
+}
+
+/* Additional buttons */
+.yuieditor-button-spoiler div {
+
+  background-image:url(s.png);
+
+}
+.yuieditor-button-imgur div {
+
+  background-image:url(imgur.png);
+  
+}
+.yuieditor-button-imgur div.imgurup {
+
+  background-image:url(spinner.gif) !important;
+  
+}
+.colour-palette tr td {
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+#sbut {
+	line-height: 1.4;
+}
